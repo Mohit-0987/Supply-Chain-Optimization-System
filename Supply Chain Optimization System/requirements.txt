@@ -1,0 +1,10 @@
+pandas
+numpy
+psycopg2-binary
+scikit-learn
+joblib
+mlflow
+kafka-python
+streamlit
+plotly
+requests

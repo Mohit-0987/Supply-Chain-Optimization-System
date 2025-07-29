@@ -1,0 +1,17 @@
+Supply Chain optimization System/
+   /- Dags
+          /- supply_chain_pipeline.py
+   /- Dash Board
+          /- streamlit_dashboard
+   /- Data Engineering
+          /- kafka_consumer.py
+          /- kafka_producer
+   /- Models
+          /- ml_models
+   /- api_server.py
+   /- docker-compose.yml
+   /- Dockerfile
+   /- Dockerfile.mlflow
+   /- init_db.sh
+   /- run_inventory_analysis.py
+   /- train_model.py
