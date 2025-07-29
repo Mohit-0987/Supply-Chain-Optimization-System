@@ -143,6 +143,6 @@ Once the services are running and scripts have been executed, you can access the
          
          ├── run_inventory_analysis.py     # Script to run inventory optimization 
          
-         └── train_model.py                # Script to train demand forecasting model with MLflow
+         ├── train_model.py                # Script to train demand forecasting model with MLflow
 
 # If you encounter any issues or have questions, please feel free to reach out to me via my portfolio or Gmail
