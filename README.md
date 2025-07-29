@@ -1,7 +1,7 @@
 # Supply Chain Optimization System
 
 
-![Streamlit Dashboard Screenshot](https://raw.githubusercontent.com/Mohit-4687/Supply-Chain-Optimization-System/main/Output%20Images/Streamlit%20dashboard.png)
+![Streamlit Dashboard Screenshot](https://github.com/Mohit-0987/Supply-Chain-Optimization-System/blob/main/Output%20Images/Streamlit_dashboard.png)
 
 This repository hosts a robust Supply Chain Optimization System designed to enhance efficiency and decision-making in supply chain management. It leverages a modern data stack to handle real-time data, perform advanced analytics, and integrate machine learning models for forecasting and optimization.
 
