@@ -48,12 +48,16 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Installation
 
-1.  **Clone the repository:**
+  **Clone the repository:**
     ```bash
     git clone [https://github.com/your-username/supply-chain-optimization.git](https://github.com/your-username/supply-chain-optimization.git)
     cd supply-chain-optimization
     ```
-
+1.  ** Open Root Directory **
+    ```bash
+    cd " Your main project path "
+    ```
+    
 2.  **Build and Start Docker services:**
     This command will build the necessary Docker images and then start all the services defined in `docker-compose.yml` (PostgreSQL, Kafka, Zookeeper, MinIO, MLflow, Airflow, Grafana) in detached mode (`-d`).
     ```bash
