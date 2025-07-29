@@ -1,7 +1,7 @@
 # Supply Chain Optimization System
 
 
-![Alt text](image_url)
+![Alt text](Output Images/Streamlit_dashboard.png)
 
 
 
