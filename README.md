@@ -109,7 +109,7 @@ Once the services are running and scripts have been executed, you can access the
 ## Project Structure
 
 
-    ├── Supply Chain Optimization System/
+    ├── Supply Chain Optimization System/  # Main Folder
 
          ├── Dags/
              └── supply_chain_pipeline.py  # Airflow DAG for ETL 
