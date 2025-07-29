@@ -1,5 +1,19 @@
 # Supply Chain Optimization System
 
+
+![Alt text](image_url)
+
+
+
+
+
+
+
+
+
+
+
+
 This repository hosts a robust Supply Chain Optimization System designed to enhance efficiency and decision-making in supply chain management. It leverages a modern data stack to handle real-time data, perform advanced analytics, and integrate machine learning models for forecasting and optimization.
 
 ## Features
