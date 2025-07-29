@@ -1,7 +1,7 @@
 # Supply Chain Optimization System
 
 
-![Alt text](Output Images/Streamlit_dashboard.png)
+![Alt text]([Output Images/Streamlit_dashboard.png](https://github.com/Mohit-0987/Supply-Chain-Optimization-System/blob/main/Output%20Images/Streamlit_dashboard.png))
 
 
 
