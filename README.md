@@ -107,40 +107,42 @@ Once the services are running and scripts have been executed, you can access the
 * [cite_start]**FastAPI API Docs**: If you choose to run `api_server.py` separately (it's not part of the `docker-compose up` flow by default in your setup), you can access its interactive API documentation at `http://localhost:8000/docs` (assuming you run it on port 8000)[cite: 1].
 
 ## Project Structure
-Supply Chain Optimization System
 
-      ├── Dags/
-          └── supply_chain_pipeline.py  # Airflow DAG for ETL 
-      
-      
-      ├── Dash Board/
-          └── streamlit_dashboard.py    # Streamlit interactive dashboard 
-      
-      
-      ├── Data Engineering/
-          └── kafka_consumer.py         # Kafka consumer to ingest data into PostgreSQL 
-      
-          └── kafka_producer.py         # Kafka producer to generate synthetic data 
-      
-      
-      ├── Models/
-          └── ml_models.py              # Machine Learning models (DemandForecastingModel, InventoryOptimizer) 
-      
-      ├── api_server.py                 # FastAPI for demand prediction 
-      
-      ├── docker-compose.yml            # Defines and links all Docker services 
-      
-      
-      ├── Dockerfile                    # Dockerfile for Airflow environment 
-      
-      
-      ├── Dockerfile.mlflow             # Dockerfile for MLflow server dependencies 
-      
-      
-      ├── init-db.sh                    # Script to initialize PostgreSQL databases 
-      
-      ├── run_inventory_analysis.py     # Script to run inventory optimization 
-      
-      └── train_model.py                # Script to train demand forecasting model with MLflow
+
+    ├── Supply Chain Optimization System/
+
+         ├── Dags/
+             └── supply_chain_pipeline.py  # Airflow DAG for ETL 
+         
+         
+         ├── Dash Board/
+             └── streamlit_dashboard.py    # Streamlit interactive dashboard 
+         
+         
+         ├── Data Engineering/
+             └── kafka_consumer.py         # Kafka consumer to ingest data into PostgreSQL 
+         
+             └── kafka_producer.py         # Kafka producer to generate synthetic data 
+         
+         
+         ├── Models/
+             └── ml_models.py              # Machine Learning models (DemandForecastingModel, InventoryOptimizer) 
+         
+         ├── api_server.py                 # FastAPI for demand prediction 
+         
+         ├── docker-compose.yml            # Defines and links all Docker services 
+         
+         
+         ├── Dockerfile                    # Dockerfile for Airflow environment 
+         
+         
+         ├── Dockerfile.mlflow             # Dockerfile for MLflow server dependencies 
+         
+         
+         ├── init-db.sh                    # Script to initialize PostgreSQL databases 
+         
+         ├── run_inventory_analysis.py     # Script to run inventory optimization 
+         
+         └── train_model.py                # Script to train demand forecasting model with MLflow
 
 # If you encounter any issues or have questions, please feel free to reach out to me via my portfolio or Gmail
