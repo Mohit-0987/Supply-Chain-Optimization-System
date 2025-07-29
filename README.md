@@ -53,7 +53,7 @@ These instructions will get you a copy of the project up and running on your loc
     git clone [https://github.com/your-username/supply-chain-optimization.git](https://github.com/your-username/supply-chain-optimization.git)
     cd supply-chain-optimization
     ```
-1.  ** Open Root Directory **
+1.  ** Open Root Directory in Docker **
     ```bash
     cd " Your main project path "
     ```
