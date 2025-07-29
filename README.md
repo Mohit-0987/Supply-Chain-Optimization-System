@@ -97,6 +97,11 @@ These instructions will get you a copy of the project up and running on your loc
     ```bash
     python run_inventory_analysis.py
     ```
+9. **After you are finished using the project, remember to close all open terminal windows and local host websites, then run docker-compose down in your project's root directory to stop and remove the Docker containers and networks.**
+    ```bash
+    docker-compose down
+    ```
+    **it will stop all the services**
 
 ### Accessing UIs and Dashboards
 
